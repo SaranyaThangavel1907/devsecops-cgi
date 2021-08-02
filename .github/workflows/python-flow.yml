@@ -15,5 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: Build
     steps:
+      - uses: actions/checkout@v2
+      - name: path
+        run: pwd
+      - name: list
+        run: ls ${GITHUB_WORKSPACE}
       - name: Run Python File
-        run:  python /home/runner/work/devsecops-cgi/hello.py
+        run: python /home/runner/work/devsecops-cgi/devsecops-cgi/hello.py
