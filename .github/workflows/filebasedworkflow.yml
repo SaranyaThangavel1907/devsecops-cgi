@@ -1,4 +1,4 @@
-name: Variables Workflow 
+name: File based trigger 
 
 on:
   push:
