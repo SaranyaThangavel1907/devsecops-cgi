@@ -23,4 +23,4 @@ jobs:
       - name: list files
         run: ls ${GITHUB_WORKSPACE}
       - name: Run Java File
-        run: java -cp java /home/runner/work/devsecops-cgi/devsecops-cgi/HelloWorld
+        run: java -cp java HelloWorld
