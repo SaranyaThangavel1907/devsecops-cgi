@@ -1,4 +1,4 @@
-name: Variables Workflow
+name: Negative Workflow
 
 on:
   push:
