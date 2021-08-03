@@ -22,5 +22,7 @@ jobs:
           java-version: 1.8
       - name: list files
         run: ls ${GITHUB_WORKSPACE}
+      - name: compile file
+        run: javac hello.jave
       - name: Run Java File
         run: java -cp java HelloWorld
